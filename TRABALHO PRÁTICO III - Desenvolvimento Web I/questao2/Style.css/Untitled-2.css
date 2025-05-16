@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color:rgb(59, 120, 252) ;
+    
+}
+.conteiner {
+  height: 100vh; 
+  width: 100vw;  
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 10px;
+}
+.x1{
+    background-color: rgb(46, 161, 46);
+    color: rgb(46, 161, 46);
+    height: 50px;
+   
+}
+#x2{
+    background-color: rgb(250, 88, 29);
+    color: rgb(250, 88, 29);
+    height: 70px;
+    width: 100%;
+}
+.conteiner-filho1{
+    background-color: rgb(59, 120, 252);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    gap: 10px;
+    padding: 10px;
+    
+}
+.conteiner-filho1 div{
+    background-color: rgb(236, 72, 99);
+    color: rgb(236, 72, 99) ;
+    height: 350px;
+    
+
+}
+.conteiner-filho2{
+    background-color: rgb(59, 120, 252);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 200px;
+    padding: 10px;
+}
+.conteiner-filho2 div{
+    background-color: blueviolet;
+    color: blueviolet;
+    height: 200px;
+}

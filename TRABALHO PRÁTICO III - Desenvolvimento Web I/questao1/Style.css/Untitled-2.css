@@ -1,0 +1,46 @@
+*{ 
+   margin: 0%;
+   padding: 0;
+   background-color: antiquewhite;
+
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+}
+.x1{
+    background-color: rgb(233, 68, 68);
+    color: rgb(233, 68, 68);
+    border-radius: 10%;
+    height: auto;
+    margin: 5px;
+    
+}
+.x2{
+    background-color: rgb(68, 93, 233);
+    color: rgb(68, 93, 233);
+    border-radius: 10%;
+    height: auto;
+    margin: 5px;
+}
+.x3{
+    background-color: rgb(68, 233, 96);
+    color: rgb(68, 233, 96);
+    border-radius: 10%;
+    height: auto;
+    margin: 5px;
+    
+}
+.x4{
+    background-color:  rgb(222, 233, 68);
+    color: rgb(222, 233, 68);
+    border-radius: 10%;
+    height: auto;
+    margin: 5px;
+}
